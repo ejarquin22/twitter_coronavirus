@@ -1,6 +1,6 @@
 # Coronavirus twitter analysis
 
-This repository analyzes the use of the conora hastag on twitter, along other hashtags realted to the COVID-19 pandemic. There are three programs in this repository (stored in the src folder) that are used to create a final vizualization of the number of times each COVID-19 related hashtag is used in a tweet: 
+This repository analyzes the use of the conora hashtag on twitter, along many other hashtags realted to the COVID-19 pandemic. There are three programs in this repository (stored in the src folder) that are used to create a final vizualization of the number of times each COVID-19 related hashtag is used in a tweet: 
 
 1. map.py: This program processes all the .zip files in a given --input-path. The program first extracts the .zip file and then proceeds to create a corresponding  .lang and .country file. These files are saved to the output folder. 
 2. reduce.py: This program takes all the .lang and .country files from the output folder and merges them into a reduced.lang and a reduced.country file, respectively. 
